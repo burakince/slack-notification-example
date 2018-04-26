@@ -1,0 +1,19 @@
+{
+	"comment": "",
+	"ignore": "test",
+	"package": [
+		{
+			"checksumSHA1": "BMaJDqifvwJ5LWPOiZn9Rjet/94=",
+			"path": "github.com/gin-gonic/gin",
+			"revision": "6d913fc343cfac80d656db5be67a0ffb1323ba0d",
+			"revisionTime": "2018-03-29T06:33:07Z"
+		},
+		{
+			"checksumSHA1": "MnFP8akdC0YwPNc8fLSyHZbp3mU=",
+			"path": "github.com/nlopes/slack",
+			"revision": "625f4f9ebe5ca9709571eaea4f517a32f6e88041",
+			"revisionTime": "2018-04-20T12:55:33Z"
+		}
+	],
+	"rootPath": "github.com/burakince/slack-notification-example"
+}
