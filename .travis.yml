@@ -1,0 +1,10 @@
+jobs:
+  include:
+    - stage: Build And Deploy Docker Image
+      sudo: required
+      services:
+        - docker
+      script:
+        - echo "$HEROKU_PASSWORD" | docker login -u "$HEROKU_USERNAME" --password-stdin registry.heroku.com
+        - docker build -f Dockerfile -t registry.heroku.com/slack-notification-example/web .
+        - docker push registry.heroku.com/slack-notification-example/web
