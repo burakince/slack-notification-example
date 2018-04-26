@@ -1,7 +1,7 @@
 FROM golang:1.10.1-alpine3.7 AS build
 
 RUN apk --no-cache add git
-RUN go install github.com/kardianos/govendor && govendor sync
+RUN go get -u github.com/kardianos/govendor && govendor sync
 ADD . /go/src/github.com/burakince/slack-notification-example
 RUN go install github.com/burakince/slack-notification-example
 
