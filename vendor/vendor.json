@@ -9,6 +9,12 @@
 			"revisionTime": "2018-03-29T06:33:07Z"
 		},
 		{
+			"checksumSHA1": "mB5P3/XIC7r4Jc0/K86NA9Jq2CA=",
+			"path": "github.com/gorilla/websocket",
+			"revision": "21ab95fa12b9bdd8fecf5fa3586aad941cc98785",
+			"revisionTime": "2018-04-20T17:16:12Z"
+		},
+		{
 			"checksumSHA1": "MnFP8akdC0YwPNc8fLSyHZbp3mU=",
 			"path": "github.com/nlopes/slack",
 			"revision": "625f4f9ebe5ca9709571eaea4f517a32f6e88041",
